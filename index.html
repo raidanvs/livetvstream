@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live TV Streaming</title>
+  </head>
+  <body>
+    <h1 style="padding-left:20px;"> AvsAfrica Global: Live Stream TV </h1>
+    <div id="container">
+      <div id="channel-list">
+        <ul>
+          <h4>Most Watched</h4>
+          <li><a href="#" onclick="updateIframe('https://ntuplay.xyz/premiumtv/daddylivehd.php?id=44')">SS Grandstand</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-38.php')">Sky Sports Main</a></li>
+          <br>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-424.php')">SuperSport Motor</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-420.php')">SuperSport Action</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-422.php')">SuperSport Golf</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-414.php')">SuperSport EPL</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-419.php')">SuperSport Rugby</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-421.php')">SuperSport Tennis</a></li>
+          <br>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-416.php')">SuperSport Variety 1</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-417.php')">SuperSport Variety 2</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-418.php')">SuperSport Variety 3</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-419.php')">SuperSport Variety 4</a></li>
+          <br>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-313.php')">Discovery HD</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-304.php')">Animal Planet</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-305.php')">BBC America</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-310.php')">Comedy Central</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-322.php')">History TV</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-345.php')">CNN News</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-300.php')">CW USA</a></li>
+<li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-312.php')">Disney Channel</a></li>
+
+<br>
+<h4>Music Channels</h4>
+<li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-371.php')">MTV USA</a></li>
+<li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-367.php')">MTV UK</a></li>
+<li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-344.php')">VH1</a></li>
+<li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-306.php')">BET USA HD</a></li>
+          <br>
+          <h4>Kaylah's Channels</h4>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-315.php')">E! Entertainment</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-337.php')">TLC</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-321.php')">HBO HD</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-331.php')">Oprah Winfrey Network</a></li>
+          <li><a href="#" onclick="updateIframe('https://daddylivehd.sx/embed/stream-339.php')">Cartoon Network</a></li>
+        </ul>
+      </div>
+      <div id="iframe-container">
+        <iframe id="channel-iframe" class="video responsive" allow="fullscreen" style="border:solid grey;" height="100%" width="100%" marginheight="1" marginwidth="1" frameborder="0" p949asgcx=""></iframe>
+      </div>
+    </div>
+
+    <script>
+      function updateIframe(url) {
+        document.getElementById('channel-iframe').src = url;
+      }
+    </script>
+
+    <style>
+      #container {
+        display: flex;
+      }
+      #channel-list {
+        width: 20%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+      }
+      #iframe-container {
+        position: relative;
+        top:0;
+        left: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 2%;
+        width: 70%;
+        flex-grow: 3;
+
+      }
+    </style>
+  </body>
+</html>
